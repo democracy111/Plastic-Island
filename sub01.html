@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Zero Waste</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img class="header_logo" src="./images/header_logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="javascript:()" onclick="showpopup();">후원하기</a></li>
+        <li><a href="./sub02.html">Recycling Rules</a></li>
+        <li><a href="./sub01.html">Zero Waste</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="sub01_section">
+    <h2>Zero Waste</h2>
+    <div class="sub01_div">
+      <hr />
+      <div class="sub01_div_content">
+        <div>
+          <img class="sub01_title_image" src="./images/image_sub01_title.png" alt="Recycling" />
+        </div>
+        <div class="sub01_div_content_sub">제로 + 웨이스트의 합성어로 제로 웨이스트는 쓰레기가 없음을 의미  <br />
+        생활 속에서 생산되는 쓰레기를 최소하으로 줄임과 동시에  <br />
+        불가피하게 버려지는 쓰레기는 최대한 줄이면서  <br />
+        재활용할 수 있는 소비를 지향하는 것 <br />
+        </div>
+      </div>
+    </div><br /><br />
+    <div class="sub01_image_list">
+      <div>
+        <img class="sub01_content_image" src="./images/image_sub01_1.png" alt="텀블러 사용"/><br />
+        텀블러 사용<br /><br />
+        머그컵, 텀블러를 사용하면 <br />
+        플라스틱 일회용 컵 사용을 <br />
+        줄여 플라스틱 사용을 <br />
+        줄일수있어요! <br />
+      </div>
+      <div>
+        <img class="sub01_content_image" src="./images/image_sub01_2.png" alt="비닐봉투 대신 장바구니!" /><br />
+        비닐봉투 대신 장바구니!<br /><br />
+        장을 볼때에는 장바구니 <br />
+        에코백을 들고 가면 <br />
+        일회용 비닐봉투의 사용을 <br />
+        줄일수 있습니다. <br />
+      </div>
+      <div>
+        <img class="sub01_content_image" src="./images/image_sub01_3.png" alt="찌그러뜨리고 뚜껑닫기"/><br />
+        찌그러뜨리고 뚜껑닫기<br /><br />
+        버려야 하는 플라스틱은 <br />
+        꼼꼼하게! <br />
+        재활용이 어려운 플라스틱은 <br />
+        종량제 봉투에! <br />
+      </div>
+    </div><br /><br /><br />
+
+    <hr /><footer>
+      Made by Kim Min Ju ( 김민주 ) for 2021 project.
+    </footer>
+
+  </section>
+
+  <!-- begin popup -->
+
+<div class="popup" id="popup">
+  <div class="blanket"></div>
+  <div class="content">
+    <h2>후원하기</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <input type="text" placeholder="이름">
+        </div>  
+        <div class="item">  
+          <input type="text" placeholder="이메일 주소 입력">
+        </div>
+      </div>
+      <button class="signup" onclick="hidePopup();">더 알아보기</button>
+      <button class="close" onclick="hidePopup();"></button>  
+    </form>
+ 
+  </div>
+</div>
+<script src="./script.js" type="text/javascript"></script>
+
+</body>
+</html>
